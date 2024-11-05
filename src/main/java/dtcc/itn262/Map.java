@@ -1,6 +1,7 @@
 package dtcc.itn262;
 
 public interface Map<K extends Comparable<K>, V> {
+
 	/**
 	 * Returns the value to which the specified key is mapped,
 	 * or {@code null} if this map contains no mapping for the key.
@@ -9,7 +10,7 @@ public interface Map<K extends Comparable<K>, V> {
 	 * @return the value to which the specified key is mapped, or
 	 *         {@code null} if this map contains no mapping for the key
 	 */
-	public V get(K key);
+	V get(K key);
 
 
 	/**
@@ -20,7 +21,7 @@ public interface Map<K extends Comparable<K>, V> {
 	 * @param key key with which the specified value is to be associated
 	 * @param value value to be associated with the specified key
 	 */
-	public V put(K key, V value);
+	V put(K key, V value);
 
 	/**
 	 * Returns the number of collisions that have taken place while attempting
@@ -28,5 +29,5 @@ public interface Map<K extends Comparable<K>, V> {
 	 *
 	 * @return the number of collisions that have occurred
 	 */
-	public int getCollisions();
+	int getCollisions();
 }
