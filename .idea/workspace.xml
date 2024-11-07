@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="390b63f0-b841-4533-80d4-c825c09ab0c2" name="Changes" comment="Pushing to Azure and Github&#10;testing push">
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dtcc/itn262/CityImporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dtcc/itn262/CityImporter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dtcc/itn262/HashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dtcc/itn262/HashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dtcc/itn262/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dtcc/itn262/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dtcc/itn262/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dtcc/itn262/Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dtcc/itn262/LongitudeLatitude.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dtcc/itn262/LongitudeLatitude.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,24 +26,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "k-stranick"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;k-stranick&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/k-stranick/HashTable.git",
-    "accountId": "58ca4adb-465b-4c52-adfc-7936edd4145d"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/k-stranick/HashTable.git&quot;,
+    &quot;accountId&quot;: &quot;58ca4adb-465b-4c52-adfc-7936edd4145d&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2oPWETnaD65Ha0sBKwAQmnqoiRw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -59,7 +58,8 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/kstra/IdeaProjects/Assignment_10"
   }
 }]]></component>
   <component name="RunManager">
@@ -131,7 +131,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730828326929</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Pushing to Azure and Github&#10;testing push">
+      <option name="closed" value="true" />
+      <created>1730838603604</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1730838603604</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

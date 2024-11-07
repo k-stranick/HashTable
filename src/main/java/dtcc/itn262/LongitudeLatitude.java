@@ -9,14 +9,6 @@ public class LongitudeLatitude {
 		this.latitude = latitude;
 	}
 
-	public double getLongitude() {
-		return longitude;
-	}
-
-	public double getLatitude() {
-		return latitude;
-	}
-
 	@Override
 	public String toString() {
 		return "(" + longitude + ", " + latitude + ")";

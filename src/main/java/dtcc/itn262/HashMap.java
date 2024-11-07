@@ -47,13 +47,25 @@ public class HashMap<K extends Comparable<K>, V> implements Map<K, V> {
 	 */
 	@Override
 	public V get(K key) {
-		int index = simpleHashFunction(key);
-		if (hashTable[index] != null && hashTable[index].getKey().equals(key)) {
+
+		if (containsKey(key)) {
+			int index = simpleHashFunction(key);
 			return hashTable[index].getValue();
 		}
 		return null;
 	}
+	public boolean containsKey(K key) {
+		int index = simpleHashFunction(key);
 
+		// Check if the index contains an entry with the same key
+		return hashTable[index] != null && hashTable[index].getKey().equals(key);
+
+		// If no entry is found at the index, key is not present
+	}
+	/**
+	 * Displays the contents of the hash table in the format:
+	 * Index [index]: [key] -> [value]
+	 */
 	public void displayHashTable() {
 		System.out.println("Hash Table Contents (Non-empty indices):");
 		for (int i = 0; i < SIZE; i++) {
@@ -94,7 +106,12 @@ public class HashMap<K extends Comparable<K>, V> implements Map<K, V> {
 	}
 
 
-
+	/**
+	 * A simple key/value pair class to store in the hash table
+	 *
+	 * @param <K> the type of the key
+	 * @param <V> the type of the value
+	 */
 	private static class Entry<K, V> {
 		private final K key;
 		private final V value;
@@ -112,9 +129,5 @@ public class HashMap<K extends Comparable<K>, V> implements Map<K, V> {
 			return value;
 		}
 	}
-
-
-
-
 }
 
